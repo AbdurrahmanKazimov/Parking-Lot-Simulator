@@ -28,6 +28,22 @@ This project implements a multi-storey parking lot management system using a PIC
 2. Run `cengParkSimulator.py` on host PC.
 3. Use the simulator controls to start the simulation and interact.
 
+## How Simulator works
+When the simulator is running, there are 2 options:
+1. Automatic mode: Activated by pressing the ’A’ key on the computer
+keyboard. In this mode, the simulator generates random events every 100 ms. Possible
+events include adding a car to the queue, notifying the exit of a parked car, requesting a
+subscription, or no event at all.
+2. Manuel Mode: Activated by pressing the ’M’ key on the computer
+keyboard. In this mode, there are four buttons you can try:
+  – ’R’ button: Adds a random car to the queue.
+  – ’T’ button: Requests removal of random car from the parking lot
+  – ’Y’ button: Requests subscription of a random car to a random place in the parking lot.
+  – ’U’ button: Add a random subscribed car to the queue.
+
+## Modes of 7-segment display
+7-segment display operates on 2 modes. First one is the default one which shows total accumulated money, and the second one shows the number of empty spaces in the chosen floor. The floor can be chosen using the ADC potentiometer on the board. The switch between these 2 modes happens when RB4 button is released.
+
 ## Features
 
 - Real-time parking lot state display.
