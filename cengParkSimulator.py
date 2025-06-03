@@ -490,7 +490,6 @@ class SerialManager:
             elif self.state == self.GETTING:
                 if byte == b'#':
                     if (checkMessage(self.data)):
-                        print(self.data)
                         self.messages.put(self.data)
                         self.cmd_count += 1
                         self.data = b''
