@@ -35,7 +35,7 @@ keyboard. In this mode, the simulator generates random events every 100 ms. Poss
 events include adding a car to the queue, notifying the exit of a parked car, requesting a
 subscription, or no event at all.
 2. Manuel Mode: Activated by pressing the ’M’ key on the computer
-keyboard. In this mode, there are four buttons you can try:
+keyboard. In this mode, there are four buttons you can try:\n
   – ’R’ button: Adds a random car to the queue.
   – ’T’ button: Requests removal of random car from the parking lot
   – ’Y’ button: Requests subscription of a random car to a random place in the parking lot.
