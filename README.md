@@ -38,8 +38,11 @@ subscription, or no event at all.
 keyboard. In this mode, there are four buttons you can try:
 
   – ’R’ button: Adds a random car to the queue.
+  
   – ’T’ button: Requests removal of random car from the parking lot
+  
   – ’Y’ button: Requests subscription of a random car to a random place in the parking lot.
+  
   – ’U’ button: Add a random subscribed car to the queue.
 
 ## Modes of 7-segment display
